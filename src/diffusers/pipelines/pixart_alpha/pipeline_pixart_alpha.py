@@ -688,7 +688,7 @@ class PixArtAlphaPipeline(DiffusionPipeline):
         num_inference_steps: int = 20,
         timesteps: List[int] = None,
         sigmas: List[float] = None,
-        guidance_scale: float = 4.5,
+        guidance_scale: float = 1.5,
         num_images_per_prompt: Optional[int] = 1,
         height: Optional[int] = None,
         width: Optional[int] = None,
