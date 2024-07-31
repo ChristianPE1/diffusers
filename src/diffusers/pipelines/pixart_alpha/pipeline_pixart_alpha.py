@@ -685,7 +685,7 @@ class PixArtAlphaPipeline(DiffusionPipeline):
         self,
         prompt: Union[str, List[str]] = None,
         negative_prompt: str = "",
-        num_inference_steps: int = 20,
+        num_inference_steps: int = 70,
         timesteps: List[int] = None,
         sigmas: List[float] = None,
         guidance_scale: float = 1.5,
